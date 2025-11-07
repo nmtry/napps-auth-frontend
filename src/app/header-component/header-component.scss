@@ -1,0 +1,53 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+
+    background: linear-gradient(90deg, #350101, #740202);
+}
+
+.header-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.header-section.center {
+  justify-content: center;
+}
+
+.header-section.left {
+  justify-content: flex-start;
+}
+
+.header-section.right {
+  justify-content: flex-end;
+}
+
+.logo {
+  width: 12rem;
+}
+
+.header-text {
+  //color: #ffffff;
+  color: black;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+// Primary Red	#E50914	Bold, vibrant red — used for accent buttons, links, logo highlights
+// Dark Background	#0D0D0D	Main background — deep blackish tone for contrast
+// Header / Navbar	linear-gradient(90deg, #1A1A1A, #0D0D0D)	Subtle gradient for a premium tech look
+// Card / Panel	#1C1C1C	Slightly lighter than background to distinguish content sections
+// Card Shadow	rgba(0, 0, 0, 0.6)	Deep shadow for depth
+// Text Primary	#FFFFFF	Clean white for main text
+// Text Secondary	#B3B3B3	Muted gray for less important text
+// Accent / Button Hover	#FF1E2D	Slightly brighter red for hover states
+// Input Background	#262626	Dark but distinct field color
+// Border / Line Color	#333333	Subtle separator lines or outlines

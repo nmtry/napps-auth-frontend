@@ -1,13 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
 
+:root {
+  --primary-red: #E50914;
+  --dark-bg: #0D0D0D;
+  --card-bg: #1C1C1C;
+  --text-primary: #FFFFFF;
+  --text-secondary: #B3B3B3;
+  --input-bg: #262626;
+  --accent-hover: #FF1E2D;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
 body {
     margin: 0;
     padding: 0;
     font-family: Roboto, Arial;
-    background-color: #eef0f0;
+    background-color: var(--dark-bg);
+    color: var(--text-primary)
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 12rem;
 }
 
 p {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
     margin: 0;
     padding: 0;
 }
